@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "Our Services";
+}
+<div class="text-center" style="margin-top:100px;">
+    <h1>@ViewData["Title"]</h1>
+    <hr class="style12">
+</div>
+<div class="container text-center p-5">
+  <div class="row">
+    <div class="col bg-dark p-5 text-light">
+      <h3>Development</h3><br />
+      <img alt="pict1" src="@Url.Content("~/Images/webde.jpg")" width="400px" height="300px"/><br /><br />
+      <a href="#dev" class="btn btn-light" role="button">Click Here</a>
+    </div>
+    <div class="col bg-light p-5">
+      <h3>Consulting</h3><br />
+      <img alt="pict1" src="@Url.Content("~/Images/cons.jpg")" width="400px" height="300px"/><br /><br />
+      <a href="#cons" class="btn btn-dark" role="button">Click Here</a>
+    </div>
+    <div class="col bg-warning p-5 text-dark">
+      <h3>Search Engine Optimization</h3><br />
+      <img alt="pict1" src="@Url.Content("~/Images/seo.jpg")" width="400px" height="300px"/><br /><br />
+      <a href="#seo" class="btn btn-dark" role="button">Click Here</a>
+    </div>
+  </div>
+</div>
+
+<hr style="height:5px;border-width:0;color:gray;background-color:gray"><br />
+
+<div class="p-5 text-center">
+    <h3 id="dev">Development Corner</h3><br />
+    <div class="row">
+      <div class="col-sm-4">
+          <img alt="pict1" src="@Url.Content("~/Images/web.png")" width="50px"/><br /><br />
+          <h5>Web Applications</h5>
+          <p>We will help you to develop website beyond your expectation.</p>
+      </div>
+      <div class="col-sm-4">
+          <img alt="pict1" src="@Url.Content("~/Images/mob.png")" width="50px"/><br /><br />
+          <h5>Mobile Applications</h5>
+          <p>We will help you to build mobile app that easy to use and interesting.</p>
+      </div>
+      <div class="col-sm-4">
+          <img alt="pict1" src="@Url.Content("~/Images/desktop.png")" width="50px"/><br /><br />
+          <h5>Desktop Applications</h5>
+          <p>We will help you to develop desktop app that you needed.</p>
+      </div>
+    </div><br /><br />
+    <a href="https://api.whatsapp.com/send?phone=628123456789" class="btn btn-secondary btn-lg btn-block" role="button">Contact Now</a>
+</div>
+<hr style="height:5px;border-width:0;color:gray;background-color:gray"><br />
+<div class="p-5 text-center bg-dark text-light">
+    <h3 id="cons">Consulting Corner</h3><br />
+    <div class="row">
+      <div class="col-sm-6">
+          <img alt="pict1" src="@Url.Content("~/Images/soft.png")" width="50px"/><br /><br />
+          <h5>Software Architecture</h5>
+          <p>We will help you to solve your problems.</p>
+      </div>
+      <div class="col-sm-6">
+          <img alt="pict1" src="@Url.Content("~/Images/qa.png")" width="50px"/><br /><br />
+          <h5>Quality Assurance</h5>
+          <p>We will help you to test your application.</p>
+      </div>
+    </div><br /><br />
+    <a href="https://api.whatsapp.com/send?phone=628123456789" class="btn btn-info btn-lg btn-block" role="button">Contact Now</a>
+</div>
+<hr style="height:5px;border-width:0;color:gray;background-color:gray"><br />
+<div class="p-5 text-center">
+    <h3 id="seo">SEO Corner</h3><br />
+    <div class="row">
+      <div class="col-sm-6">
+          <img alt="pict1" src="@Url.Content("~/Images/seo.png")" width="50px"/><br /><br />
+          <h5>Search Engine Optimization</h5>
+          <p>We will help you to improving your site to increase its visibility when people search 
+             for products or services related to your business in Google, Bing, and other search engines.</p>
+      </div>
+      <div class="col-sm-6">
+          <img alt="pict1" src="@Url.Content("~/Images/adv.png")" width="50px"/><br /><br />
+          <h5>Advertising in Social Networks</h5>
+          <p>We will help you to advertising your company in social networks.</p>
+      </div>
+    </div><br /><br />
+    <a href="https://api.whatsapp.com/send?phone=628123456789" class="btn btn-secondary btn-lg btn-block" role="button">Contact Now</a>
+</div>

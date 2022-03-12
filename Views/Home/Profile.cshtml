@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Our Start-Up Profile";
+}
+<div class="text-center" style="margin-top:100px;">
+    <h1>@ViewData["Title"]</h1>
+    <hr class="style12"><br />
+</div>
+
+<div class="p-5 text-center" style="margin-left:100px; margin-right:100px;">
+    <p>
+        <img alt="pict1" src="@Url.Content("~/Images/4service.jpg")" width="1000px"/>
+        <br /><br /><b>regular-irregular</b> is a startup that provides IT services.<br /><br />
+        <img alt="pict2" src="@Url.Content("~/Images/5dev.jpg")" width="1000px"/><br /><br />
+        There are three services that we offer, such as <b>development</b>, <b>consulting</b>, 
+        and <b>SEO (Search Engine Optimization)</b>.<br /><br />
+        <img alt="pict3" src="@Url.Content("~/Images/6teams.jpg")" width="1000px"/><br /><br />
+        Although our startup is new, no need to worry, we have <b>professional teams</b> that advance 
+        in their area of expertise.<br />
+        <img alt="pict4" src="@Url.Content("~/Images/8.png")" width="500px"/><br /><br />
+        We guarantee you <b>a high-quality service</b>
+    </p><br />
+    <a class="btn btn-info" role="button" asp-action="Product">Explore Now</a>
+</div>

@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="p-5 bg-warning text-dark" style="margin-top: 100px;">
+      <br><br><br><br><br><br><br><br /><br /><br />
+      <h1>Make Your Own Choice.</h1>
+    </div>
+
+    <img id="img_logo" alt="Logo" src="@Url.Content("~/Images/1web.jpg")" width="1296px"/>
+
+    <div class="p-5 bg-dark text-light">
+      <h5>We provide high quality services only!</h5>
+    </div>
+
+    <div class="p-5 bg-light text-dark">
+        <br>
+        <p>
+            <img id="img_logo" alt="Logo" src="@Url.Content("~/Images/2ui.jpg")" width="500px"/>
+            <h3>Our Services</h3>
+            Looking for IT services?<br><br>
+            <a class="btn btn-info" role="button" asp-action="Product">Explore More</a>
+        </p>
+    </div>
+</div>
